@@ -157,7 +157,6 @@ pub fn match_fingerprints(fp1: &[u32], fp2: &[u32], _config: &Configuration) -> 
             }
             begin = end;
         }
-        break;
     }
 
     Ok(segments)

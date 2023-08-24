@@ -2,6 +2,9 @@
 
 pub use fingerprint_matcher::{match_fingerprints, Segment};
 pub use fingerprinter::{Configuration, Fingerprinter};
+pub use audio_processor::ResetError;
+pub use fingerprint_matcher::MatchError;
+
 
 mod audio_processor;
 mod chroma;
